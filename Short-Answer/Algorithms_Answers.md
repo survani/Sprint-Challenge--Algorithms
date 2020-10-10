@@ -20,4 +20,17 @@ c) For the following pseudocode the running time would be 0(n). The reasons are 
 
 ## Exercise II
 
+Okay...
+
+* I will find the median for the breaking points. 
+* I will do this by dividing the number of "f" /2 
+* after drop the egg from that middle point. 
+* if egg == broken I would divide that first half of the floor again.
+* else if egg != broken then / the greater half of the "f". 
+* repeat the process.
+* this will determing the list of floors to where the eggs breaking point is.
+
+I believe this is like a merge sort. Which then makes the running time 0(n*log n) because it always devides in two halves. Making it take linear time to merge two halves.
+
+
 
